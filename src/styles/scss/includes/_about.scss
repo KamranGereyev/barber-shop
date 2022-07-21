@@ -1,0 +1,107 @@
+.about {
+  background-image: url("../../../images/bg5.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .headerinfo {
+    .sergey {
+      width: 90px;
+      height: 120px;
+    }
+
+    .nick {
+      width: 90px;
+      height: 120px;
+    }
+
+    .lines {
+      margin: 0 30px;
+      flex-grow: 1;
+      overflow: hidden;
+      height: 50px;
+    }
+
+    #name-sergey {
+      font-size: 5em;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      margin-right: 20px;
+    }
+
+    #name-nick {
+      font-size: 5em;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    }
+  }
+
+  .info {
+    text-align: left;
+  }
+
+  .full-name {
+    color: #ffdb96;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .born {
+    color: #ffdb96;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .bio {
+    color: #ffdb96;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-weight: bolder;
+  }
+
+  .buttons {
+    margin-top: 40px;
+    text-align: center;
+
+    .btn1 {
+      background-color: rgb(150, 35, 15);
+      border-radius: 14px;
+      border: none;
+      width: 120px;
+      height: 35px;
+      margin: 25px;
+      text-shadow: 3px 3px 3px #000;
+      font-style: italic;
+    }
+
+    .btn2 {
+      background-color: rgb(224, 86, 32);
+      border-radius: 14px;
+      border: none;
+      width: 120px;
+      height: 35px;
+      text-shadow: 3px 3px 3px #000;
+      font-style: italic;
+    }
+
+    .btn3 {
+      background-color: rgb(150, 35, 15);
+      border-radius: 14px;
+      border: none;
+      width: 120px;
+      height: 35px;
+      margin: 25px;
+      text-shadow: 3px 3px 3px #000;
+      font-style: italic;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .headerinfo {
+      #name-sergey,
+      #name-nick {
+        font-size: 46px;
+        margin: 5px;
+      }
+    }
+  }
+}
